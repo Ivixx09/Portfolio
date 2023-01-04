@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import NavBar from "../Components/NavBar/NavBar"
-import PrincipalPage from '../Components/PrincipalPage/PrincipalPage'
+import Skills from '../Components/Skills/Skills'
 
 export default function Home() {
   return (
@@ -13,8 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <NavBar/>
-          <PrincipalPage/>
+          <Skills/>
         </div>
       </main>
     </>
