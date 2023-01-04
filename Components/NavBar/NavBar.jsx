@@ -1,19 +1,37 @@
 import React from 'react'
+import { useRouter } from "next/router";
+
 
 const NavBar = () => {
+  
+  const router = useRouter()
+  
+  function routerPushS () {
+  }
+  function routerPushA () {
+    router.push("/about")
+  }
+    function routerPushP () {
+    router.push("/proyects")
+  }
+  function routerPushC () {
+    router.push("/contact")
+  }
+  
+  
   return (
-    <div className='bg-slate-200 h-14'>
-      <div className='flex h-full'>
-        <div className='basis-1/2 flex items-center'>
+    <div className='bg-slate-50 h-14'>
+      <div className='flex h-full justify-between'>
+        <div className=' flex items-center pl-4 font-hind'>
           <span>IVO MAYDANA</span>
         </div>
-          <div className='flex items-center basis-3/4'>
-            <span className='px-2'>Skills</span>
-            <span className='px-2'>About me</span>
-            <span className='px-2'>Proyects</span>
-            <span className='px-2'>Contact me</span>
+          <div className='flex items-center'>
+            <span className='px-2 font-hind' onClick={routerPushA}>About Me</span>
+            <span className='px-2 font-hind'>Skills</span>
+            <span className='px-2 font-hind'>Proyects</span>
+            <span className='px-2 font-hind'>Contact me</span>
           </div>
-          <div className='basis-1/4 flex justify-end sm:pl-22 md:pl-22'>
+          <div className=' flex justify-end pr-4'>
             <img className='h-full w-full rounded-full' src="./yo.jpg" alt="" />
           </div>
       </div>
