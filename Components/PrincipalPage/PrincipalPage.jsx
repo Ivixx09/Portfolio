@@ -2,8 +2,8 @@ import React from 'react'
 
 const PrincipalPage = () => {
   return (
-    <div style={{height:"60vw"}}  className='bg-slate-50 grid grid-cols-1 gap-4 content-center'>
-      <div className='flex justify-center py-5'>
+    <div style={{height:"50vw"}}  className='bg-slate-50 grid grid-cols-1 gap-4 content-center'>
+      <div className='flex justify-center '>
         <span className='font-hind text-2xl lg:text-7xl md:text-6xl sm:text-3xl'>
           Hi! i am Ivo Maydana
         </span>
