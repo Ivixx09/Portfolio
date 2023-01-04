@@ -20,7 +20,7 @@ const NavBar = () => {
   
   
   return (
-    <div className='bg-slate-50 h-14'>
+    <div className='fixed w-full bg-gradient-to-b from-blue-400 to-cyan-300 h-14'>
       <div className='flex h-full justify-between'>
         <div className=' flex items-center pl-4 font-hind'>
           <span>IVO MAYDANA</span>
