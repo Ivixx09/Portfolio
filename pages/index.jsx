@@ -1,10 +1,12 @@
 import Head from 'next/head'
-// import About from '../Components/About/About'
+import { useState } from 'react'
+import About from '../Components/About/About'
 import NavBar from "../Components/NavBar/NavBar"
 import PrincipalPage from '../Components/PrincipalPage/PrincipalPage'
 import Skills from '../Components/Skills/Skills'
 
 export default function Home() {
+  const [nav, setNav] = useState(false)
   return (
     <>
       <Head>
@@ -15,7 +17,7 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <NavBar/>
+          <NavBar nav={nav} setNav={setNav}/>
           <PrincipalPage/>
           {/* <About/> */}
           <Skills/>
