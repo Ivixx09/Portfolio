@@ -19,7 +19,7 @@ export default function Home() {
         <div>
           <NavBar nav={nav} setNav={setNav}/>
           <PrincipalPage/>
-          <About/>
+          {/* <About/> */}
           <Skills/>
         </div>
       </main>
