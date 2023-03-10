@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div style={{height:"100vw"}} className="bg-slate-50">
+    <div style={{height:"100vw"}} className="h-screen bg-slate-200">
       <div className=' pb-12 sm:pb-20 md:pb-32 lg:pb-32'>
         <h2 className='text-lg sm:text-2xl md:text-5xl lg:text-5xl grid justify-items-center '>
           I know the following technologies

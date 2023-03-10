@@ -3,7 +3,7 @@ import {easeInOut, motion} from "framer-motion"
 
 const PrincipalPage = () => {
   return (
-    <div style={{height:"60vw"}}  className='bg-slate-50 grid grid-cols-1 gap-4 content-center'>
+    <div className='h-screen bg-slate-200 grid grid-cols-1 gap-4 content-center'>
       <div className='flex justify-center py-5'>
         <motion.span
         transition={{
@@ -13,7 +13,7 @@ const PrincipalPage = () => {
         }} 
         initial={{scale: 0}}
         animate={{scale: 1}}
-        className='font-hind text-2xl lg:text-7xl md:text-6xl sm:text-3xl'>
+        className='font-custom text-2xl lg:text-7xl md:text-6xl sm:text-3xl'>
           Hi! i am Ivo Maydana
         </motion.span>
         <motion.img         
@@ -35,7 +35,7 @@ const PrincipalPage = () => {
           }} 
           initial={{scale: 0}}
           animate={{scale: 1}}
-          className='font-hind text-2xl lg:text-7xl md:text-6xl sm:text-3xl '>
+          className='font-custom text-2xl lg:text-7xl md:text-6xl sm:text-3xl '>
           A FullStack web developer
         </motion.span>
         <motion.img
