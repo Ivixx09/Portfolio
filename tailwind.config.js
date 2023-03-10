@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        hind: "'Hind Siliguri', sans-serif;"
+        hind: "'Hind Siliguri', sans-serif;",
+        custom: "'Suranna', serif;"
       }
     },
   },
