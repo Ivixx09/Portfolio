@@ -109,13 +109,13 @@ const About = () => {
   };
 
   return (
-    <div className="h-screen bg-black ">
+    <div className="h-screen bg-black  ">
       <div className="pt-6 h-full sm:hidden ">
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true }}
-          className="mt-[4%]"
+          className="mt-[20%]"
         >
           <motion.h1
             className="text-4xl font-custom text-slate-100 flex justify-center"
@@ -142,7 +142,7 @@ const About = () => {
               />
             </motion.div>
             <motion.div className="basis-2/3" variants={cardVariantsSmT1}>
-              <span className="font-custom text-xl font-medium text-white">
+              <span className="font-custom text-lg font-medium text-white">
                 I live in Argentina and i started my study on{" "}
                 <a href="https://www.soyhenry.com/">Henry</a> in March 2022
                 <br />
@@ -161,8 +161,8 @@ const About = () => {
             whileInView="onscreen"
             viewport={{ once: true }}
           >
-            <motion.div className="h-1/3" variants={cardVariantsSmT2}>
-              <span className="font-custom text-xl font-medium text-white">
+            <motion.div className="h-1/3 " variants={cardVariantsSmT2}>
+              <span className="font-custom text-lg font-medium text-white">
                 I'm dedicated on my work, and responsable with everything i have
                 to do. I like organization and team work.
                 <br />
@@ -171,7 +171,7 @@ const About = () => {
               </span>
             </motion.div>
             <motion.div
-              className="h-3/4 w-3/4 ml-[10%] mt-[8%]"
+              className="h-1/4 w-2/5 ml-[30%] mt-[8%]"
               variants={cardVariantsSmP2}
             >
               <img
@@ -183,7 +183,7 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-      <div className="hidden sm:grid">
+      <div className="h-full hidden sm:grid">
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
